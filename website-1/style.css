@@ -17,9 +17,6 @@ body{
     background-color: #1F2937;
     margin: 0;
     padding: 20px;
-    /*display: flex;
-    flex-wrap: wrap;
-    justify-content: center;*/
 }
 
 .container1 {
@@ -67,9 +64,9 @@ a {
     height: auto;
     width: 400px;
     border-radius: 10px;
-    border-style: ridge;
     border-width: 5px;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(161, 153, 153);
+    border-style: outset;
 }
 
 .title1 {
@@ -107,35 +104,39 @@ a {
 .content2 {
     text-align: center;
     margin: 0;
-    padding: 40px;
+    padding: 50px;
 }
 
 .facilities {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 30px;
+    flex-wrap: wrap;
 }
 
 .title2 {
     font-size: 36px;
     font-weight: 500;
     color: #1F2937;
-    margin-bottom: 40px;
     font-family: Patua-One;
+}
+
+.info {
+    padding: 50px 30px 0px 0px;
 }
 
 .facil-img {
     height: 200px;
     width: 200px;
     object-fit: cover;
-    border-radius: 15px;
-    border-width: 5px;
-    border-color: #3882f6;
-    border-style: ridge;
+    border-radius: 20px;
+    border-width: 10px;
+    border-color: #ffffff;
+    border-style: inset;
 }
 
 .facil-text {
-    width: 300px;
+    width: 250px;
     font-size: 18px;
     color: #313131;
     padding: 10px;
@@ -143,7 +144,7 @@ a {
 
 .content3 {
     background-color: #e5e7eb;
-    padding: 70px 300px;
+    padding: 150px 300px;
 }
 
 .quote {
