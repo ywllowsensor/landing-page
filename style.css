@@ -1,11 +1,11 @@
 @font-face {
     font-family: FasterOne-Regular;
-    src: url("../font/FasterOne-Regular.ttf");
+    src: url("font/FasterOne-Regular.ttf");
 }
 
 @font-face {
     font-family: Patua-One;
-    src: url("../font/PatuaOne-Regular.ttf");
+    src: url("font/PatuaOne-Regular.ttf");
 }
 
 body{
