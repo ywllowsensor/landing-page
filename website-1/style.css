@@ -139,3 +139,17 @@ span {
     padding: 10px;
 }
 
+.content3 {
+    background-color: #e5e7eb;
+    padding: 70px 300px;
+}
+
+.quote {
+    font-size: 36px;
+}
+
+.quoter {
+    text-align: end;
+    font-size: 25px;
+    font-weight: bold;
+}
