@@ -79,7 +79,7 @@ a {
     font-family: Patua-One;
 }
 
-span {
+.academy {
     display: block;
 }
 
@@ -152,4 +152,8 @@ span {
     text-align: end;
     font-size: 25px;
     font-weight: bold;
+}
+
+.TTA {
+    background-color: rgb(211, 211, 211);
 }
