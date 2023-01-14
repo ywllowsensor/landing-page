@@ -68,8 +68,8 @@ a {
     width: 400px;
     border-radius: 10px;
     border-style: ridge;
-    border-width: 10px;
-    border-color: gold;
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
 }
 
 .title1 {
@@ -100,6 +100,8 @@ a {
     padding: 5px 25px;
     align-self: flex-start;
     border-style: solid;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 .content2 {
@@ -156,4 +158,36 @@ a {
 
 .TTA {
     background-color: rgb(211, 211, 211);
+}
+
+.content4 {
+    display: flex;
+    margin: 100px 150px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 40px 70px;
+    border-radius: 10px;
+}
+
+.text2 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button2 {
+    background-color: #3882f6;
+    border-style: solid;
+    border-color: #e5e7eb;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 30px;
+    color: white;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1:hover, .button2:hover {
+    background-color: #74a3f0;
 }
