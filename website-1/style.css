@@ -191,3 +191,12 @@ a {
 .button1:hover, .button2:hover {
     background-color: #74a3f0;
 }
+
+.content5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: #1F2937;
+    color: white;
+}
