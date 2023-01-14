@@ -1,17 +1,27 @@
+@font-face {
+    font-family: FasterOne-Regular;
+    src: url("../font/FasterOne-Regular.ttf");
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
 
 .content1 {
-    background-color: rgb(5, 48, 61);
+    background-color: #1F2937;
     margin: 0;
     padding: 20px;
+    /*display: flex;
+    flex-wrap: wrap;
+    justify-content: center;*/
 }
 
 .container1 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 770px;
+    align-items: center;
 }
 
 ul {
@@ -20,30 +30,25 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
-    background-color: rgb(100, 70, 100);
-    border-radius: 10px;
-    padding: 10px 25px;
-    font-weight: bold;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .logo {
-    height:auto;
-    width:100px;
+    font-size: 24px;
+    color: #f9faf8;
+    font-family: FasterOne-Regular;
 }
 
 .links {
     display: flex;
     gap: 20px;
-    font-size: 20px;
-    margin: 0;
-    padding: 30px;
 }
 
 .container2 {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 200px;
     padding: 50px;
 }
 
@@ -55,20 +60,28 @@ a {
 
 .header-img {
     height: auto;
-    width: 500px;
+    width: 400px;
     border-radius: 10px;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: gold;
 }
 
 .title1 {
-    font-size: 60px;
-    font-weight: bold;
-    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+span {
+    display: block;
 }
 
 .text1 {
     width: 500px;
-    font-size: 25px;
-    color: rgb(190, 190, 190);
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 5px;
 }
 
 .button1{
